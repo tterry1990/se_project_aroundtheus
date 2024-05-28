@@ -32,6 +32,7 @@
   padding: 25px 20px;
   align-items: center;
   justify-content: space-between;
+  font-family: "Inter", arial, sans-serif;
 }
 
 .card__title {
@@ -49,8 +50,10 @@
   width: 21px;
   height: 18px;
   border: none;
+  color: #000;
 }
 
 .card__like-button:hover {
   opacity: 0.5;
+  cursor: pointer;
 }

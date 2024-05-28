@@ -1,0 +1,22 @@
+.header {
+  margin-top: 45px;
+  font-family: "Inter", Arial, sans-serif;
+  border-bottom: 1px solid #545454;
+}
+
+.header__logo {
+  margin-bottom: 41px;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    margin-top: 28px;
+    border-bottom-width: 100%;
+  }
+
+  .header__logo {
+    width: 126px;
+    height: 24px;
+    margin: 0 0 32px 27px;
+  }
+}
