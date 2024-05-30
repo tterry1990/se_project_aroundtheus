@@ -53,7 +53,6 @@
   grid-area: title;
   margin: 0;
   max-width: 373px;
-  text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -81,6 +80,10 @@
   .profile {
     flex-direction: column;
     justify-content: center;
+  }
+
+  .profile__title {
+    text-overflow: ellipsis;
   }
 
   .profile__info {
