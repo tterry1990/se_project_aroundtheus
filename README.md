@@ -11,9 +11,9 @@ Hello! My name is Trevor Terry and this project is supposed to represent element
 
 - [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
 
-# Github
+# Github:
 
-Github: https://github.com/tterry1990/se_project_aroundtheus
+https://tterry1990.github.io/se_project_aroundtheus/
 
 # Link to video explaination:
 
