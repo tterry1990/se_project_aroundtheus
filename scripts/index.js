@@ -25,7 +25,7 @@ const initialCards = [
   },
 ];
 
-/*Elements*/
+/* Elements */
 const profileEditButton = document.querySelector("#profile-edit-button");
 const profileEditModal = document.querySelector("#profile-edit-modal");
 const profileCloseButton = document.querySelector("#modal-close-button");
@@ -69,7 +69,7 @@ initialCards.forEach((cardData) => {
   cardListEl.prepend(cardElement);
 });
 
-/*Event Listeners*/
+/* Event Listeners */
 profileEditButton.addEventListener("click", () => {
   profileTitleInput.value = profileTitle.textContent;
   profileDescriptionInput.value = profileDescription.textContent;
