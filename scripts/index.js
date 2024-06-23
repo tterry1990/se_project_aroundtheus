@@ -41,7 +41,7 @@ const cardTemplate =
 const cardListEl = document.querySelector(".cards__list");
 
 /* Functions */
-function closePopop() {
+function closePopup() {
   profileEditModal.classList.remove("modal_opened");
 }
 
@@ -60,7 +60,7 @@ function handleProfileEditSubmit(e) {
   e.preventDefault();
   profileTitle.textContent = profileTitleInput.value;
   profileDescription.textContent = profileDescriptionInput.value;
-  closePopop();
+  closePopup();
 }
 
 initialCards.forEach((cardData) => {
@@ -68,6 +68,8 @@ initialCards.forEach((cardData) => {
 
   cardListEl.prepend(cardElement);
 });
+
+/*initialCards.forEach((cardData) => {}); KEEP FOR FUTURE REFERENCE IN CASE CODE DOSENT WORK*/
 
 /* Event Listeners */
 profileEditButton.addEventListener("click", () => {
@@ -78,6 +80,6 @@ profileEditButton.addEventListener("click", () => {
   console.log("clicked");
 });
 
-profileCloseButton.addEventListener("click", closePopop);
+profileCloseButton.addEventListener("click", closePopup);
 
 profileEditForm.addEventListener("submit", handleProfileEditSubmit);
