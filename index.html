@@ -47,7 +47,7 @@
     </div>
 
     <!--ADD CARD MODAL-->
-    <div class="modal" id="profile-add-modal">
+    <div class="modal" id="add-card-modal">
       <div class="modal__container">
         <button
           type="button"
@@ -78,7 +78,7 @@
     </div>
 
     <!--PROFILE EDIT MODAL-->
-    <div class="modal" id="profile-edit-modal">
+    <div class="modal" id="edit-modal">
       <div class="modal__container">
         <button
           type="button"
@@ -91,8 +91,8 @@
             type="text"
             name="title"
             id="profile-title-input"
-            placeholder="Title"
-            class="modal__input"
+            placeholder="Name"
+            class="modal__input modal__input_type_name"
             required
           />
           <input
@@ -100,7 +100,7 @@
             name="description"
             id="profile-description-input"
             placeholder="Description"
-            class="modal__input"
+            class="modal__input modal__input_type_description"
             required
           />
           <button class="modal__button" type="submit">Save</button>
@@ -108,8 +108,17 @@
       </div>
     </div>
 
+    <div class="modal" id="preview-image-modal">
+      <div class="modal__container">
+        <button class="modal__close" id="preview-modal-close"></button>
+        <img class="modal__image" id="modal-image" src="" />
+        <div class="modal__title"></div>
+      </div>
+    </div>
+
     <template id="card-template">
       <li class="card">
+        <button class="card__delete-button" type="button"></button>
         <img src="" alt="" class="card__image" />
         <div class="card__description">
           <h2 class="card__title"></h2>
