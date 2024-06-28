@@ -43,10 +43,25 @@
 }
 
 .modal__preview-container {
-  margin: 0;
+  background: none;
   padding: 0;
-  width: 433px;
-  height: 540px;
+  max-height: 75vh;
+  max-width: 75vw;
+  width: auto;
+  display: flex;
+  border: none;
+}
+
+.modal__title {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 10px);
+  color: #fff;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .modal__heading {
