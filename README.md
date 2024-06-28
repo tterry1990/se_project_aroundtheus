@@ -8,11 +8,12 @@ Hello! My name is Trevor Terry and this project is supposed to represent element
 
 - Figma
 - Vs Code
-- JavaScript (new)
+- JavaScript
+  -forEach loops (new)
 
 # Link to the project on Figma
 
-https://www.figma.com/design/EO5AaNCuzzFL7X5gSY7HwQ/Sprint-4_-Around-The-U.S.-_-desktop-%2B-mobile?node-id=6432-2&t=tlzRiIXoxTL5S5gv-0
+(https://www.figma.com/design/JFPhASqvZ5pBjQV2ouUlim/Sprint-5_-Around-The-U.S.-_-desktop-%2B-mobile-(Copy)?node-id=1-246&t=M4RuMWGn2U3H9Rqt-0)
 
 # Github:
 
