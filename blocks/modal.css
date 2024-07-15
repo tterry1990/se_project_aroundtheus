@@ -126,6 +126,12 @@
   cursor: pointer;
 }
 
+.modal__button:disabled {
+  opacity: 0.5;
+  background-color: #fff;
+  color: darkgray;
+}
+
 .modal__button:hover {
   opacity: 0.6;
 }
