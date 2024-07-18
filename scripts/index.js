@@ -33,7 +33,7 @@ const cardTemplate = document
 const cardsWrap = document.querySelector(".cards__list");
 const editProfileModal = document.querySelector("#edit-modal");
 const addCardModal = document.querySelector("#add-card-modal");
-const profileFormElement = editProfileModal.querySelector(".modal__form");
+const profileFormElement = editProfileModal.querySelector("#profile-edit-form");
 const addCardFormElement = addCardModal.querySelector(".modal__form");
 
 // Buttons and other DOM nodes
@@ -54,12 +54,29 @@ const cardTitleInput = addCardFormElement.querySelector(
 );
 const cardUrlInput = addCardFormElement.querySelector(".modal__input_type_url");
 
+function handleEscClose(event) {
+  if (event.key === "Escape" || event.key === "Esc") {
+    const modal = document.querySelector(".modal_opened");
+    closeModal(modal);
+  }
+}
+
+function handleOverlayClick(event) {
+  if (event.target.classList.contains("modal_opened")) {
+    closeModal(event.target);
+  }
+}
+
 function closeModal(modal) {
   modal.classList.remove("modal_opened");
+  document.removeEventListener("keydown", handleEscClose);
+  modal.addEventListener("click", handleOverlayClick);
 }
 
 function openModal(modal) {
   modal.classList.add("modal_opened");
+  document.addEventListener("keydown", handleEscClose);
+  modal.addEventListener("click", handleOverlayClick);
 }
 
 function renderCard(cardData, wrapper) {

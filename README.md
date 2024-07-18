@@ -1,19 +1,21 @@
-# Project 5: Around The U.S.
+# Project 6: Around The U.S.
 
 ### Overview
 
-Hello! My name is Trevor Terry and this project is supposed to represent elements on different screen sizes with responsive web-design. In this project, I started the code from scratch for the first time and was able to use grids and media queries. In Sprint 4, we utilized the same project except this time, I was able to implement some JavaScript code into the website to add more functionality. The profile edit button is now a working button and users are able to update their name and description. I was also able to use JS to load all of the cards needed for the project without writing them individually in HTML. In sprint 5, my challenge was to change some of my for loops into forEach loops. I was also tasked using JS to add cards into the webpage while resetting the card title and description automatically so that the user would not have to manually delete everytime they wanted to add a new card. The final element that I was able to add to this page was opening a preview image of the card by clicking on the card. This was the most challenging aspect of the project because it required a bit more code that I wasnt too familiar with. Starting this project from scratch is most certainly a challenge but you'll never learn if you don't make mistakes. Below, you'll find a link to the actual project on Figma as well as my github!
+Hello! My name is Trevor Terry and this project is supposed to represent elements on different screen sizes with responsive web-design. In this project, I started the code from scratch for the first time and was able to use grids and media queries. In Sprint 4, we utilized the same project except this time, I was able to implement some JavaScript code into the website to add more functionality. The profile edit button is now a working button and users are able to update their name and description. I was also able to use JS to load all of the cards needed for the project without writing them individually in HTML. In sprint 5, my challenge was to change some of my for loops into forEach loops. I was also tasked using JS to add cards into the webpage while resetting the card title and description automatically so that the user would not have to manually delete everytime they wanted to add a new card. The final element that I was able to add to this page was opening a preview image of the card by clicking on the card. In Sprint 6, I was tasked with form validation. In both the add card and edit profile modal, I needed to make sure to have the browser display a message showing that form requirements havent been met if the user did not input the set amount of characters. I also was able to implement a keydown event by having the modals close if the user clicks on the overlay or uses the escape key. Starting this project from scratch is most certainly a challenge but you'll never learn if you don't make mistakes. Below, you'll find a link to the actual project on Figma as well as my github!
 
 # List of technologies used:
 
 - Figma
 - Vs Code
 - JavaScript
-  -forEach loops (new)
+  -forEach loops
+  -form validation(new)
+  -keydown events(new)
 
 # Link to the project on Figma
 
-(https://www.figma.com/design/JFPhASqvZ5pBjQV2ouUlim/Sprint-5_-Around-The-U.S.-_-desktop-%2B-mobile-(Copy)?node-id=1-246&t=M4RuMWGn2U3H9Rqt-0)
+https://www.figma.com/design/N3zUeequnpvMX807FfYAZW/Sprint-6-Around-The-U.S.?node-id=0-214&t=fvziXZ5k6atLzNaN-0
 
 # Github:
 
