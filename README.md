@@ -31,6 +31,6 @@ https://tterry1990.github.io/se_project_aroundtheus/
 
 (https://github.com/tterry1990/se_project_aroundtheus/assets/168576246/6fc7ef60-472c-4731-a577-4d278e894563)
 
-# Link to video description of Sprint 5:
+# Link to video description of Sprint 6:
 
-(https://drive.google.com/drive/folders/1x7iqyt-jqWGgzvf6NWM-CUtZilwKaYjb)
+https://drive.google.com/file/d/195O8hQ9W83sY43hbS2iF3UH7UJgu6fWs/view?usp=drive_link
